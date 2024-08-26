@@ -1,0 +1,255 @@
+## The Initial Formation
+The name Seption was originally born out of the combination of 3 core things:
+1. The dictionary definitions of inception and conception
+2. The prefix "sept-" which is derived from the Latin word septem, which means seven
+3. The meme that was born out of the movie Inception where a noun is combined with the suffix "-ception" to indicate a layering, nesting, or recursion of the thing in question. (ie. Playception: Each actor must portray a character playing another character.)
+
+## Discovering of More Semantic Depth
+The more the name was studied, the more meanings were discovered that were uncannily and directly related to the core of the project's goals.
+
+There are many other semantically relevant words which end in "-ception", "-eption", "-ption", or simply "-tion" such as:
+- Perception
+- Exception
+- Reception
+- Preconception
+- Negotiation
+- Intuition
+- Expression
+- Ejection
+- Destruction
+- Construction
+- Application
+- Amplification
+- Adaption
+- Transition
+- Traction
+- Subscription
+- Prescription
+- Introduction
+- Introspection
+- Instruction
+- Induction
+- Distinction
+- Subversion
+- Depiction
+- Misconception
+- Interception
+- Assumption
+- Corruption
+- Disruption
+- Preemption
+- Inscription
+- Consumption
+- Presumption
+- Resumption
+- Subjection
+- Convection
+- Connection
+- Supposition
+- Prediction
+- Detection
+- Correction
+- Election
+- Intention
+- Reflection
+- Selection
+- Projection
+- Rejection
+- Section
+- Extraction
+- Infection
+- Injunction
+- Objection
+- Promotion
+- Reduction
+- Injection
+- Inspection
+- Intersection
+- Redemption
+- Action
+- Deception
+- Relation
+- Communication
+- Education
+- Evolution
+- Emotion
+- Formation
+- Generation
+- Imitation
+- Motivation
+- Nation
+- Notion
+- Option
+- Organization
+- Participation
+- Preparation
+- Protection
+- Reaction
+- Attraction
+- Completion
+- Creation
+- Revolution
+- Variation
+- Vision
+- Adoption
+- Definition
+- Information
+- Production
+- Question
+- Solution
+- Translation
+- Transformation
+## The Meaning of the Number 7
+Seven is a very significant number in many contexts like:
+- Religion, Spirituality, Philosophy, and Metaphysics
+	- **Creation**: God created the world in six days and rested on the seventh, making it a holy day (Sabbath).
+	- **Seven Deadly Sins**: In Christian doctrine, they represent cardinal sins to avoid (e.g., pride, greed).
+	- **Seven Sacraments**: In Catholicism, there are seven sacraments: Baptism, Eucharist, Confirmation, Reconciliation, Anointing of the Sick, Marriage, and Holy Orders.
+	- **Seven Heavens**: The Quran mentions seven heavens.
+	- **Hajj**: During the pilgrimage to Mecca, Muslims walk around the Kaaba seven times.
+	- **Seven Chakras**: According to Buddhism and Hinduism, there are seven energy centers in the human body, known as chakras.
+		- Seven main chakras along the spine
+		- Seven layers of the auric field
+		- Seven levels of consciousness associated with each chakra
+	- **Sapta Rishi**: Seven great sages or Rishis.
+	- **Seven Steps**: After Buddha's birth, it is said that he took seven steps.
+	- **Seven Lucky Gods**: In Japanese mythology, there are seven deities of good fortune.
+	- **Seven Virtues**: Opposing the seven deadly sins, there are seven virtues: chastity, temperance, charity, diligence, patience, kindness, and humility.
+	- **Seven Hermetic Principles**: Found in the "Kybalion," these principles are foundational in Hermetic philosophy.
+	- Seven days of Kwanzaa
+	- Seven-day Jewish mourning period (Shiva)
+	- Seven stages of alchemical transformation
+	- Seven planetary metals in alchemy (gold, silver, mercury, copper, iron, tin, lead)
+	- Gnosticism
+		- Seven archons ruling the material world
+		- Seven heavens in some Gnostic cosmologies
+		- Seven vowels representing the seven heavens in Gnostic chants
+	- Mystery schools and secret societies
+		- Seven degrees of initiation in some mystery schools
+		- Seven liberal arts and sciences in Freemasonry
+		- Seven-pointed star in various occult traditions
+	- Pythagorean mysticism
+		- Seven as the number of perfection (3 + 4 = 7, combining the divine and earthly)
+		- Seven strings on the lyre of Apollo
+		- Seven vowels in the Greek alphabet, each associated with a note and a planet
+	- Enochian magic
+		- Seven Ensigns of Creation
+		- Seven angels of the presence
+		- Seven-layered structure of the Enochian tablets
+	- Shamanic practices
+		- Seven directions in some shamanic cosmologies (North, South, East, West, Above, Below, Center)
+		- Seven power animals in some shamanic traditions
+		- Seven levels of the shamanic world tree
+	- Druidic traditions
+		- Seven elements in some Druidic systems (earth, air, fire, water, wood, metal, ether)
+		- Seven-year cycles of Druidic training
+		- Seven sacred trees in Celtic lore
+	- Ancient Egyptian mysticism
+		- Seven Hathors as divine fortune-tellers
+		- Seven gates of the Duat (underworld)
+		- Seven scorpions that protected Isis
+	- Norse mythology
+		- Seven sons of Muspell in Ragnarök
+		- Seven sleepers in the Völuspá prophecy
+		- Seven steps in the creation of the universe according to some interpretations
+	- Kabbalah
+		- Seven lower Sephiroth on the Tree of Life
+		- Seven palaces in Merkabah mysticism
+		- Seven names of God in Jewish mysticism
+	- Theosophy
+		- Seven planes of existence
+		- Seven rays of spiritual energy
+		- Seven root races in human evolution
+	- Astrology
+		- Seven classical planets (Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn)
+		- Seven astrological ages
+		- Seven-year personal cycles based on planetary rulers
+	- Tarot
+		- Seven cards in the Major Arcana representing virtues or vices (Chariot, Strength, Temperance, Devil, Tower, Star, Moon)
+		- Seven of each suit in the Minor Arcana
+		- Seven stages of spiritual development in some tarot interpretations
+- Mathematics and Geometry
+	- **Seven Bridges of Königsberg**: A famous problem in mathematics and graph theory.
+	- Seven-sided shape: heptagon
+	- Seven-pointed star in various designs and symbols
+	- Seven points of the Seed of Life
+	- Seven circles in the Flower of Life pattern
+	- Seven-fold symmetry in some crop circle formations
+- Astronomy and Astrology
+	- **Seven Classical Planets**: The seven celestial bodies visible to the naked eye (Sun, Moon, Mars, Mercury, Jupiter, Venus, and Saturn) were the foundation of many ancient astronomical systems.
+	- **Pleiades**: Also known as the "Seven Sisters," a cluster of stars visible in the night sky.
+	- Uranus is the 7th Planet
+- Numerology
+	- **Lucky Number**: In many cultures, seven is considered a lucky number.
+	- **Seven as a Prime Number**: In mathematics, seven is a prime number, which adds to its mystique.
+	- Seven as the number of spiritual awakening and inner wisdom
+	- Seven life path number representing the seeker and philosopher
+	- Seven personal year cycles in numerology
+- Geography and Culture
+	- **Seven Wonders of the Ancient World**: Iconic historical landmarks like the Great Pyramid of Giza.
+	- **Seven Continents**: Represents global unity and diversity.
+	- **Seven Seas**: An ancient term referring to the world's major bodies of water, symbolizing global navigation and exploration.
+	- **Seven Summits**: The highest mountains on each of the seven continents, a goal for mountaineers.
+	- Seven herbs of spring in Japanese Nanakusa no sekku festival
+- Music
+	- **Seven Notes in a Scale**: In Western music, the diatonic scale has seven notes (A-G).
+	- **Seven Modes**: In music theory, the seven modes are Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, and Locrian.
+	- Seven key signatures in Western music
+- Literature, Mythology and Folklore
+	- **Seven Ages of Man**: In Shakespeare's "As You Like It," life is divided into seven stages.
+	- **Seven Voyages of Sinbad**: Famous tales from "One Thousand and One Nights."
+	- **Snow White and the Seven Dwarfs**: A well-known fairy tale where the number seven plays a key role.
+	- "The Seven Samurai" film by Akira Kurosawa
+	- **Seven-League Boots**: A mythical pair of boots that allows the wearer to take steps of seven leagues.
+- Psychology
+	- **Miller's Law**: The average human can hold about seven items in their working memory (plus or minus two)
+	- Seven stages of grief (an extension of the original five-stage model)
+- Games and Sports
+	- **Seven in Dice**: A key number in many dice games, such as craps.
+	- Seven as the most frequent sum when rolling two dice
+	- **Seven Players**: In rugby, each team has seven players on the field in the variant called Rugby Sevens.
+	- Seven innings in Little League baseball
+	- Seven games in many sports playoffs series
+- Color Theory
+	- **Seven Colors of the Rainbow**: The visible spectrum is traditionally divided into seven colors (red, orange, yellow, green, blue, indigo, violet).
+- Science and Medicine
+	- **pH Scale**: The pH scale ranges from 0 to 14, with seven being neutral, representing pure water or balance between acidity and alkalinity.
+	- **Seven Cervical Vertebrae**: All mammals, including humans, have seven neck bones.
+	- Seven stages of human embryo development
+	- Seven age classification of humans (infant, child, teen, young adult, adult, middle-age, senior)
+	- **Periodic Table:** Seven periods in the periodic table of elements
+- History and Politics
+	- **Seven Liberal Arts**: Traditional curriculum of grammar, rhetoric, logic, arithmetic, geometry, music, and astronomy in medieval education.
+- Architecture
+	- **Seven Hills of Rome**: The city of Rome is famously built on seven hills, which has historical and cultural significance.
+	- Seven-story ziggurats in ancient Mesopotamia
+	- Seven archways in some traditional Japanese bridges
+- Time
+	- **Seven Days of the Week**: A standard time cycle used globally, rooted in various religious and cultural practices.
+	- **Seven-Year Itch**: A psychological term referring to the potential for infidelity or the desire for change after seven years in a relationship or situation.
+	- **Seven Stages of Life**: A concept from Shakespeare’s "As You Like It," representing the stages of human life.
+	- Seven-year cycles (e.g., in agriculture, business)
+- Physics and Chemistry
+	- **Seven Energy Levels**: In the Bohr model of the atom, there are seven possible electron energy levels or shells.
+- Technology
+	- **Seven-Layer OSI Model**: Defines networking protocol layers from physical transmission to application.
+	- Seven segments in digital number displays
+	- Seven bits in ASCII characters
+- Environmental Science
+	- **Seven Natural Resources**: Air, water, soil, minerals, plants, animals, and energy are considered the most critical resources for sustaining life and ecosystems on Earth.
+- Personal Development
+	- **Seven Habits of Highly Effective People**: A popular book by Stephen Covey that outlines seven key habits for personal and professional success.
+- Economics
+	- Seven-year business cycles in some economic theories
+	- Group of Seven (G7) major advanced economies
+	- Seven financial ratios commonly used in fundamental analysis
+- Linguistics
+	- Seven basic plots in storytelling according to some theories
+	- Seven types of sentence structures in English
+	- Seven vowels in the International Phonetic Alphabet
+
+It represents completeness, wholeness, and perfection. The trinity's full expression is the number 7. It's at the heart of a lot of fundamental geometric structures and sacred geometry like the platonic solids, the flower of life, the fruit of life, metatron's cube, the Merkaba, seal of solomon, pythagorean tetractys, the golden ration is ~1.6, the Koch Snoflake (one of the first discoveries of fractal progression), ancient egyptian pyramid proportions, etc. The western musical scale has 7 harmonic octaves, the rainbow arguably has roughly 7 main colors. There are 7 chakras (energy centers / wheels of the body). Uranus is the 7th planet. 
+
+The project is fundamentally about making it easier to work with complexity and the interconnected relationships between things in general. Other concepts that are core to the project: emergence, semantics, agency, freedom from the known, order from chaos, community, permaculture, DIKW (data/information/knowledge/wisdom)
+
+---
