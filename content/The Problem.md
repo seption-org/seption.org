@@ -1,11 +1,10 @@
- I should be able to just...
+ I should be able to just... 
 
 
 Creating software for user agency isn't enough. We must also 
 1. Inform users about what their new abilities are
 2. Invite users to imagine their own perferred usage, so that they may start to think in terms of what they can now do
 3. Foster a community of users such that they know how to weild agency wisely and ethically.
-
 
 # We suffer a lack of Agency,
 whether we are conscious of it or not, via:
@@ -14,10 +13,11 @@ whether we are conscious of it or not, via:
 - fractured, siloed, divided, incompatible 
 - openness
 - extensibility/customization personalization, need radical compatibility
-20. Fragmentation of data, workflows, and digital identity across platforms
-22. Lack of tools for effective collaborative sense-making, my stuff and your stuff can't interoperate
-29. Limited support for integrating formal and informal knowledge structures
-## 2. Lack of Sovereignty (we can't do what we want with our stuff)
+- Fragmentation of data, workflows, and digital identity across platforms
+- Lack of tools for effective collaborative sense-making, my stuff and your stuff can't interoperate
+- Limited support for integrating formal and informal knowledge structures
+- conceptual provenance tracking between apps and between time
+## 2. Lack of Sovereignty (we can't do anything we want with our stuff)
 - We currently don't have ownership/power/sovereignty over our data, software, or identities, even if we use our own hardware.
 - extraction, centralization and control
 - identity
