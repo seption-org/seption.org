@@ -1,4 +1,4 @@
-Tools for human agency for an uncertain future!
+Tools for human agency for an uncertain future.
 
 ==We don't have tools to elegantly deal with the complexity of the interconnectedness of the information at hand==
 
@@ -9,7 +9,7 @@ We believe this would be made possible by making it easy to publish, discover, a
 Our digital information ecosystems are broken:
 
 - Controlled by a few corporations
-- It's hard to find what you're looking for!
+- It's hard to find what you're looking for
 - There's too much information and no good ways to deal with it
 
 - How can we discover and group up with likeminded people?
