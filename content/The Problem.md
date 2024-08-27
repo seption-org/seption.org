@@ -1,6 +1,6 @@
 # We suffer a lack of Agency,
 Whether we are conscious of it or not, via:
-### 1. Lack of Interoperability (we are trapped by walled app silos)
+## 1. Lack of Interoperability (we are trapped by walled app silos)
 - Interoperability is a significant problem for collaborative knowledge work and sensemaking. It is a process with such workflow and organizational friction between app silos that people don't even bother.
 - fractured, siloed, divided, incompatible 
 - openness
