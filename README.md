@@ -1,18 +1,24 @@
-# Quartz v4
+# seption.org
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+The public website for **Seption** — a relational computing ecosystem.
+Software to be in better relationship with ourselves, our computers, and each other.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+## Structure
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+Plain static HTML/CSS with no build step:
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- `index.html` — landing page: the what, why, and how
+- `compass.html` — our values: right relationship, natural law, the seven values
+- `work.html` — design interventions, the RDF editor prototype, the technical thesis
+- `assets/` — stylesheet, self-hosted fonts (Newsreader, Public Sans, IBM Plex Mono), logo, and the hero constellation script
 
-## Sponsors
+## Deployment
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Pushed to `main` → deployed to [seption.org](https://seption.org) by the GitHub Pages
+workflow in `.github/workflows/deploy.yml`. No dependencies, no build.
+
+To preview locally:
+
+```sh
+python3 -m http.server 8080
+```

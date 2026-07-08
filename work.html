@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Work — Seption</title>
+  <meta name="description" content="How Seption is being built: design interventions, a working local-first RDF editor prototype, and the technical thesis of a decentralized semantic hypergraph.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Site">
+  <a class="wordmark" href="/"><img src="assets/logo.png" alt="">Seption</a>
+  <a class="nav-link" href="work.html" aria-current="page">The Work</a>
+  <a class="nav-link" href="compass.html">Our Compass</a>
+  <a class="nav-link" href="https://discord.gg/cRFFHYye7t">Discord</a>
+</nav>
+
+<header class="page-head">
+  <p class="eyebrow">The Work</p>
+  <h1>Years of research, distilled into small forms that can be tested.</h1>
+  <p class="lede">We've done a great deal of work — philosophical, semantic, and technical — mapping how a relational computing ecosystem could actually be built. This page is the honest state of it: our method, our working prototype, and the technical thesis underneath.</p>
+</header>
+
+<main>
+
+<section class="section">
+  <p class="eyebrow">Method</p>
+  <h2>Design interventions</h2>
+  <p>We work through <strong>design interventions</strong>: prototypes deliberately limited in scope, each testing one specific technical thesis — one component of how Seption works. Each form we produce is kept as simple as possible: only what's absolutely necessary to prove or disprove the idea. We learn during and after each one, report the results to the communities we work with, and let the learning shape the next intervention.</p>
+  <p>This is an Alexandrian process. Rather than specifying a grand system up front and imposing it, we grow the system through a sequence of small, testable steps — each one keeping the whole alive — until the pieces are ready to integrate into a minimum viable form we can iterate on with real communities and their real relationality needs.</p>
+  <p>Past interventions have tested graph population from everyday sources (Obsidian, Notion, Telegram), nodes as lists of outgoing links, reification and versioning models, and interface patterns for navigating dense semantic structure.</p>
+</section>
+
+<section class="section">
+  <p class="eyebrow">Now</p>
+  <h2>The Seption RDF editor</h2>
+  <p>Our current intervention is a <strong>working, local-first research instrument</strong>: an editor for building, navigating, and refining knowledge graphs, running entirely in your browser with everything stored on your own machine — there is no server copy of your work.</p>
+  <div class="triad">
+    <div class="card">
+      <h3>Many lenses, one graph</h3>
+      <p>Tree, graph, and reader-card views are panes onto the same living structure — expand any relationship, follow any backlink, focus any node.</p>
+    </div>
+    <div class="card">
+      <h3>Full RDF 1.2</h3>
+      <p>Named nodes, literals, blank nodes, named graphs, and RDF-star triple terms, with Turtle, TriG, and JSON-LD import/export and a large vocabulary library built in.</p>
+    </div>
+    <div class="card">
+      <h3>Local-first</h3>
+      <p>Projects persist in your browser's own storage with deep undo and autosave. Early experiments in direct peer-to-peer sharing and an AI agent bridge are already wired in.</p>
+    </div>
+  </div>
+  <p>The editor is where we are testing the question the whole ecosystem rests on: <strong>how should links themselves be represented</strong> so that a decentralized graph stays navigable, mergeable, and honest about its own history? Several candidate representations have been modeled inside the editor itself; one has already been retired. That's the method working as intended.</p>
+  <p class="honest">Status, honestly: this is a pre-1.0 research prototype, not a product. It works — we use it — but its purpose is to settle the foundations, not to be the thing you install next week. If you'd like a demo, ask us in Discord (or find us at DWeb Camp).</p>
+</section>
+
+<section class="section">
+  <p class="eyebrow">Thesis</p>
+  <h2>The technical thesis</h2>
+  <p>Underneath the philosophy is a concrete bet about data structures. In brief:</p>
+  <h3>Everything is a node — including relationships</h3>
+  <p>Seption is a <span class="term">monotyped, self-dual hypergraph</span>: every node can act as an edge and every edge is a node. Relationships carry their own metadata — confidence, source, time, authorship — without the infinite regress that has haunted RDF reification. The trick is a <strong>duality of representation</strong>: every relation exists both as a compact preview inside the nodes it touches (for fast, local traversal) and as a full reified node of its own (the canonical record, with all participants, roles, provenance, and history).</p>
+  <h3>Nodes are computed, not stored</h3>
+  <p>A Seption node is <em>virtual</em>: it is computed from a set of immutable, content-addressed <span class="term">entries</span> — an append-only log of contributions merged by set union, with tombstones cancelling what they name. Two machines that have seen the same entries compute the same node, with zero coordination. That is the CRDT, expressed natively in RDF rather than bolted alongside it: edit history, n-ary relationality, and permissions — features RDF should have had all along.</p>
+  <h3>Meaning from use, not decree</h3>
+  <p>We reject the assumption that interoperability requires everyone to agree on one ontology. <strong>Situated use is a better primitive than ontology</strong>: categories are tools, not prisons; link types and node types emerge through use. Disagreement is first-class data — preserved with provenance and authorship, never silently merged away. Interoperability comes from shared <em>accountability</em>, not shared meaning.</p>
+  <h3>Standing on the shoulders of the Semantic Web</h3>
+  <p>This lineage runs from the Memex through Xanadu to RDF and Linked Data — and we are extending it rather than abandoning it: staying RDF-compatible while adding what it lacked. Where the Semantic Web optimized for machines exchanging facts, Seption optimizes for humans (and machines) making meaning together — meeting people where they are, providing affordances for actual use, and carrying a set of values in its architecture.</p>
+</section>
+
+<section class="section">
+  <p class="eyebrow">Next</p>
+  <h2>Where this is going</h2>
+  <p>Immediately ahead: settling the link representation, making links fully n-ary, content-addressed node identity, automatic backlink propagation, and the full CRDT operation set — the machinery for offline, concurrent, coordination-free collaboration.</p>
+  <p>Then outward: <strong>we want to build with other projects, not beside them.</strong> We're planning lightly-facilitated workshops — Seption interoperability labs — doing design research with aligned indie tools and communities to discover together what a common relational data model needs to be. The solution should be shaped by the needs of all the projects and people involved, not designed by a few and imposed on the many.</p>
+  <p>We are also looking for <strong>sustainable, aligned funding</strong> — support that lets this stay free, libre, and open while we do the slow foundational work that product timelines never allow. If that's you, we'd love to talk.</p>
+</section>
+
+<div class="join">
+  <h2>Come build the foundations with us.</h2>
+  <p>Collaborators, critics, funders, and the simply curious — the door is open. Show us your project; let's find the relationships between them.</p>
+  <div class="cta-row">
+    <a class="button primary" href="https://discord.gg/cRFFHYye7t">Join our Discord</a>
+    <a class="button ghost" href="https://github.com/seption-org">Follow on GitHub</a>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="seven" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <p>Seption — built in the open by Gabriel &amp; Jeremy.</p>
+  <p><a href="https://discord.gg/cRFFHYye7t">Discord</a> · <a href="https://github.com/seption-org">GitHub</a> · <a href="work.html">The Work</a> · <a href="compass.html">Our Compass</a></p>
+</footer>
+
+</body>
+</html>

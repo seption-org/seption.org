@@ -1,41 +1,129 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title>Seption</title>
-  <div style="margin-left:5%">
-  <div style="max-width:45em">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seption — A Relational Computing Ecosystem</title>
+  <meta name="description" content="Seption is a relational computing ecosystem: software to be in better relationship with ourselves, our computers, and each other. Built on a decentralized semantic hypergraph, guided by right relationship and natural law.">
+  <meta property="og:title" content="Seption — A Relational Computing Ecosystem">
+  <meta property="og:description" content="Software to be in better relationship with ourselves, our computers, and each other.">
+  <meta property="og:image" content="https://seption.org/assets/logo.png">
+  <meta property="og:url" content="https://seption.org/">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-
 <body>
-  <br>
-  <p>Welcome to the preliminary Seption website. <a href="https://github.com/JeremyParadie/seption.org">Source</a></p>
-  <br>
-  <h1 id="about">About</h1>
-  <p>Hello! My name is <a href="https://jeremyparadie.com">Jeremy</a>, and I’m a maker! My undergraduate studies at UMass Amherst focused on creative mechatronics (robots, software, circuits, mechanical design) and I worked heavily on development of two academic makerspaces. I recently finished my Master in Design for Emergent Futures at Fab Lab Barcelona/IAAC/Elisava.</p>
-  <p>I am interested in developing the sociotechnological infrastructure necessary to provide equitable and agile alternatives to the existing paradigm, especially in education, fabrication, agriculture, and, most notably, information (more on that later). I am deeply concerned about the trajectory we are on as a species, and it is clear to me that with the seemingly exponential development curve of technology, the future will not be like the past. I think we need to start preparing proactively now to get a more agile alternative social/governance infrastructure in place to mitigate the damage before the pace of technological change becomes significantly more than our existing institutions can handle.</p>
-  <p>I think that strengthening the resilience of local communities by moving toward self-sufficiency and circularity will be part of the solution. I am motivated by the possibility for communities to leverage new technologies to provide for their needs and produce what they consume while supporting and being supported by peers in a globally cooperative information network.</p>
-  <p>For this to happen, we need better software infrastructure for working with and sharing information. We need accessible information and workflows to enable people to launch community initiatives; develop, govern, and run local makerspace organizations; and share, collaborate, and publish insightful results. Individuals need to feel empowered by the tools and information available, not overwhelmed. The Internet was supposed to democratize information, but today our information is owned primarily by a few app silos that compete for our attention. Many struggle with the barrage of information, and we lack sufficient tooling and workflows to process, build, and retrievably store what is valuable in an interoperable way. I’ve concluded that existing tools just aren’t good enough for the interconnected work that needs to be done in the near future.</p>
-  <p>My software development project, Seption, aims to provide for these needs by taking a new approach to information management in computers. Well, the concepts individually are actually quite old, but nobody to my knowledge has combined them like I’m planning. I envision it will be a set of open protocols, and associated implementations, with defined processes for their extension, rather than a centralized platform.</p>
-  <p>Seption aims to provide infrastructure for humans (and bots) to process and share information so people can make sense of and navigate an uncertain world with increasing change. The software will model information flexibly in the way we think: in concepts and relationships, rather than in virtualized paper-based files and folders, where classification systems are mutually exclusive, and create a tyranny of classification.</p>
-  <p>The plan is to have a decentralized and content-distributed semantic hypergraph that makes heavy use of transclusion to let users model and visualize nonlinear thoughts, compose documents, store and link data, collaborate with others, make decisions, track provenance, and publish to the Internet, while being open source, interoperable, permissioned, secure, and highly extensible. Seption should be radically compatible with existing tools, file formats, and integrations.</p>
-  <p>My approach for the core architecture is to have a simple set of rules from which the features of the software can emerge, which leads to flexibility, expandability, and reduced software development on hardcoded special cases.</p>
-  <p>Seption will let users create meaningful connections between all the information they store on their computers (messages, tasks, calendars, contacts, documents, images, audio, video, and anything else stored natively, in files, or with a URL), so that things can be easily found via other conceptually related things.</p>
-  <br>
+
+<nav class="site-nav" aria-label="Site">
+  <a class="wordmark" href="/"><img src="assets/logo.png" alt="">Seption</a>
+  <a class="nav-link" href="work.html">The Work</a>
+  <a class="nav-link" href="compass.html">Our Compass</a>
+  <a class="nav-link" href="https://discord.gg/cRFFHYye7t">Discord</a>
+</nav>
+
+<header class="hero">
+  <canvas id="constellation" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="kicker">Seption · A Relational Computing Ecosystem</p>
+    <h1>Software to be in better <em>relationship</em> with ourselves, our computers, and each&nbsp;other.</h1>
+    <p class="lede">We are two people building the foundations of a relational computing ecosystem — a decentralized semantic hypergraph, loyal software, and a community of practice — so that our tools can finally serve our well-being, in harmony with people, communities, and the natural world.</p>
+    <div class="cta-row">
+      <a class="button primary" href="https://discord.gg/cRFFHYye7t">Join the conversation</a>
+      <a class="button ghost" href="#why">Read the why</a>
+    </div>
+    <p class="camp-note">Find us at DWeb Camp 2026 — come say hello.</p>
+  </div>
+  <a class="scroll-hint" href="#why" aria-label="Scroll to read more">↓</a>
+</header>
+
+<main>
+
+<section class="section" id="why">
+  <p class="eyebrow">Why · The Problem</p>
+  <h2>Our relationship with technology is not right.</h2>
+  <p><strong>Human brains are incredible, but we did not evolve for this.</strong> We have real cognitive limitations — attention, working memory, vulnerability to bias, difficulty with complexity — and we now live inside a relentless flood of information that presses on every one of them. Tools are extensions of ourselves; we need information tools equal to this world. The ones we have are not.</p>
+  <p><strong>And it is worse than inadequacy.</strong> Under the guise of convenience and connectivity, Big Tech colonizes our lives — cloaking its hidden infrastructure with misleading jargon like &ldquo;cloud&rdquo; and &ldquo;community,&rdquo; quietly manufacturing our consent, monetizing our every move, and consolidating power in the name of &ldquo;progress.&rdquo; The powers that be weaponize our cognitive limitations with tools that are loyal to <em>them</em>. As George Carlin put it: &ldquo;It's a big club, and you ain't in it.&rdquo;</p>
+  <p><strong>Our shared digital environments show the damage.</strong> They are polluted with digital junkfood and informational microplastics. They are one-size-fits-all, though none of us are. They fragment our knowledge across siloed apps and walled gardens — endless ephemeral flows, almost no durable stocks. And they leave us without genuine agency over our own data, identities, workflows, and communities.</p>
+  <p>You cannot fix problems with the same thinking that created them. <strong>It's not the fruit that is the problem — it's the tree the fruit grows from.</strong> Tools that keep growing in the same extractive soil will keep failing us, no matter how polished they get.</p>
+</section>
+
+<section class="section" id="different">
+  <p class="eyebrow">Why · A Different Soil</p>
+  <h2>We are doing something different.</h2>
   <blockquote>
-  <p><em>Everything has to do with everything else. All information you store in your computer has something to do with other things you also store there. The complaint letter you write to your online bookstore is a response to the overly high bill they’ve sent you. The photo your best friend emailed you was taken on your shared holidays in Italy, and the poem you’ve written yesterday was also conceived there. The Aunt Mary whose birthday you enter into your calendar is same as the Aunt Mary in your address book, the same person that borrowed your book about old English sheepdogs (which you have to remember to ask back from her).</em> <a href="https://fenfire-org.github.io/vision.html">—Vision of Fenfire</a></p>
-  <br>
-  <p><em>In the past few decades we’ve seen exponential growth in data and information. However, our ability to make sense of these inputs, to convert data and information to knowledge and wisdom, is already capped by the mainstream tools today.</em></p>
-  <p><em>Using a graph database, bi-directional links, and hypertext transclusions, these tools enable users to create and traverse knowledge in a way that mirrors how humans organically create knowledge — associatively and contextually.</em></p>
-  <p><em>These “knowledge graphs” break out of the “file-and-cabinet” hierarchical paradigm that most computer systems use — note-taking apps of the last few decades, filesystems, HTML documents, etc. Users using Tools for Networked Thought can more easily create meaningful relationships about the world we live in. Not only that, these users can then more easily recontextualize relationships, allowing ideas to compose and refactor in emergent ways. This leads to the creation of more insights, more interdisciplinary insights, and generative insights: insights that create more interdisciplinary insights.</em> <a href="https://handbook.athensresearch.org/about-us/vision">—Vision of Athens</a></p>
+    <p>Simply put, the problem is that we are not in right relationship with all sorts of things — ourselves, each other, our software, our data, our communities, our biosphere. We are trying to solve that: first by finding right relationship with our digital devices by creating software to facilitate that, and then by using that software as a tool to facilitate right relationship with everything else.</p>
   </blockquote>
-  <br>
-  <p>I am building on the shoulders of giants: Vannevar Bush’s writing on the <a href="https://www.w3.org/History/1945/vbush/vbush.txt">Memex</a>, Ted Nelson’s <a href="https://xanadu.com/">Project Xanadu</a> (and <a href="https://xanadu.com/zigzag/">ZigZag</a>), Sir Tim Berners-Lee’s <a href="https://www.w3.org/2000/Talks/0906-xmlweb-tbl/text.htm">Semantic Web</a>, and concepts championed by dozens of contemporary software projects, including <a href="https://www.amplenote.com/">Amplenote</a>, <a href="https://www.appflowy.io/">Appflowy</a>, <a href="https://www.are.na/">Arena</a>, <a href="https://github.com/athensresearch/athens">Athens</a>, <a href="https://capacities.io/">Capacities</a>, <a href="https://www.zengobi.com/curio/">Curio</a>, <a href="https://docear.org/">Docear</a>, <a href="https://fenfire-org.github.io/vision.html">Fenfire</a>, <a href="https://a9.io/glue-comic/">Glue</a>, <a href="https://allegrograph.com/products/gruff/">Gruff</a>, <a href="https://heptabase.com/">Heptabase</a>, <a href="https://ia.net/writer">IA Writer</a>, <a href="https://github.com/shaunabanana/intrigue">Intrigue</a>, <a href="https://web.archive.org/web/20230410184757/https://kanopi.io/">Kanopi</a>, <a href="https://www.kosmik.app/">Kosmik</a>, <a href="https://www.markmind.net/">MarkMind</a>, <a href="https://milanote.com/">Milanote</a>, <a href="https://www.notion.so/">Notion</a>, <a href="https://obsidian.md/">Obsidian</a>, <a href="https://protege.stanford.edu/">Protégé</a>, <a href="https://github.com/jimmejardine/qiqqa-open-source">Qiqqa</a>, <a href="https://readwise.io/">Readwise</a>, <a href="https://roamresearch.com/">Roam</a>, <a href="https://www.literatureandlatte.com/scapple/overview">Scapple</a>, <a href="https://scrintal.com/">Scrintal</a>, <a href="https://www.literatureandlatte.com/scrivener/overview">Scrivener</a>, <a href="https://www.semilattice.xyz/">Semilattice</a>, <a href="https://solidproject.org/">Solid</a>, <a href="https://www.speare.com/">Speare</a>, <a href="https://subconscious.network/">Subconscious</a>, <a href="https://tana.inc/">Tana</a>, <a href="https://www.tangentnotes.com/">Tangent</a>, <a href="https://www.thebrain.com/">The Brain</a>, <a href="https://todoist.com/">Todoist</a>, and <a href="https://blog.webmemex.org/">Webmemex</a>.</p>
-  <p>The most similar projects to Seption linked above have failed. I think I have a better chance at success because the scope is limited to developing the core architecture, and any potentially enticing scope creep will be relegated to implementation via plugins after the core has been implemented. Also, I could be naive, but I believe that it hasn’t really been possible to do this until now. With Large Language Models, word/vector embedding technology, many relevant recent W3C standard recommendations, open source decentralized syncing protocols, the superior compute power of today’s devices, and the option to boost performance further for some types of operations with new web technologies like WebGPU and WebAssembly, I’m confident that it can be done.</p>
-  <p>In a soon-to-be world with personal AI agents, I think it is more important than ever to have personal knowledge graphs- to be able to label and track AI generated content, as well as to give AI agents a way to store information that is useful, familiar, and navigable by humans and other AI agents.</p>
-  <p>This is the first public post about this project, and things are still fairly early. At this point, Seption is toward the middle of the conceptual phase. I’ve been doing research on prior art and working on design documents that go into technical detail about how the architecture, data structures, and algorithms will be implemented to provide the features. I plan to pretty these documents up and build a website (I’ve acquired <a href="http://seption.org/">seption.org</a>), and then start development on a minimum viable product, which will eventually round out into the “core” leaving most everything else to be implemented as plugins, as mentioned previously. I’d also like to secure some funding and start a nonprofit.</p>
-  <p>I welcome thoughts, feedback, advice, recommendations, suggestions, and contributions. I have started a <a href="https://discord.gg/n8curdF78v">Discord server</a> for discussion about the project.</p>
+  <p>Drawing on Indigenous wisdom and teachings, we've come to see that <strong>relationship is at the heart of it all</strong>. So we are designing for relationality above all else — in our licensing, our collaboration, our workflows, and the architecture of the data model itself. Two principles guide us: <a href="compass.html"><strong>right relationship</strong></a>, technology rooted in mutual respect, reciprocity, and harmony; and <a href="compass.html"><strong>natural law</strong></a>, systems that mirror nature's decentralized, self-organizing intelligence — emergence over enforcement, cooperation over control.</p>
+  <div class="defs">
+    <div class="card">
+      <h3>Loyal software</h3>
+      <p>Software that doesn't weaponize your cognitive limitations against you. It serves you the way a fiduciary must — no hidden principal, no quiet redirection of your attention toward someone else's ends. That's right relationship.</p>
+    </div>
+    <div class="card">
+      <h3>Cognitive prosthetics</h3>
+      <p>Tools extend our capacities; software tools extend our <em>cognition</em>. Like any prosthetic, they must be deeply personal — fitted to how you actually think — and we need autonomy over them in the same sacred way we have autonomy over our bodies, because they are extensions of ourselves.</p>
+    </div>
+  </div>
+</section>
 
+<section class="section" id="what">
+  <p class="eyebrow">What · Seption</p>
+  <h2>A relational computing ecosystem.</h2>
+  <p>Imagine mixing Vannevar Bush's Memex, Ted Nelson's Xanadu, and Tim Berners-Lee's Semantic Web, then adding radical interoperability with local files and the open web: <strong>a holonic hypermedia ecosystem built on a decentralized semantic hypergraph</strong>, with a loyal client for navigating, collaborating, and creating inside it — aligned with the <a href="https://getdweb.net/principles/">principles of the DWeb</a>.</p>
+  <div class="triad">
+    <div class="card">
+      <h3>Relational</h3>
+      <p>Everything is a node — and every relationship is a node too, with its own context, provenance, and history. Meaning lives in the connections, the way it does in the world.</p>
+    </div>
+    <div class="card">
+      <h3>Computing</h3>
+      <p>Local-first and decentralized: your graph lives with you, merges with others without a central server, and stays yours. The global graph is simply the union of everyone's.</p>
+    </div>
+    <div class="card">
+      <h3>Ecosystem</h3>
+      <p>Not a product, not a platform — a protocol and a commons, built so that many tools, communities, and ways of thinking can grow on shared foundations.</p>
+    </div>
+  </div>
+  <p><strong>Concretely, we are building what RDF should have had all along</strong> — edit history, n-ary relationality, permissions — as an RDF-compatible substrate where nodes are computed from immutable, content-addressed entries, so two peers who have seen the same entries agree without any coordination. Disagreement is first-class data: interoperability comes from shared <em>accountability</em>, not forced shared meaning. <a href="work.html">The technical thesis, in depth →</a></p>
+  <p>We're not building a product — yet. We're building a foundation of interoperable microstandards on which products can be built, one level below where everyone else starts.</p>
+  <blockquote>
+    <p>The most powerful results often come from constraining ambition and designing only micro-standards on top of which a rich exploration of applications and concepts can be supported.</p>
+    <cite>— Vint Cerf</cite>
+  </blockquote>
+</section>
+
+<section class="section" id="how">
+  <p class="eyebrow">How · The Practice</p>
+  <h2>Small, honest experiments — in the open.</h2>
+  <p><strong>We work through design interventions:</strong> small prototypes, each scoped to test one specific thesis about how Seption should work. We build the simplest form that can prove or disprove the idea, share what we learn with our communities, and fold the learning forward — an Alexandrian process of shaping a living whole, not a waterfall toward a spec.</p>
+  <p><strong>The current intervention is a working prototype:</strong> the <a href="https://github.com/seption-org">Seption RDF editor</a>, a local-first research instrument for building and navigating knowledge graphs — tree, graph, and reader lenses on the same living structure, full RDF 1.2 support, everything stored on your machine. It's where we are testing the link representations that the whole ecosystem will rest on. <a href="work.html">See the work so far →</a></p>
+  <p><strong>And the horizon we're walking toward:</strong> relational software that helps local communities become more self-sufficient and resilient — connected in a globally cooperative mutual-support network that shares knowledge, workflows, designs, and tools, each adaptable to its own local context. Knowledge networked globally; the material economy kept local; the means of making technology democratized.</p>
+</section>
+
+<div class="join" id="join">
+  <h2>This only works as a <em>we</em>.</h2>
+  <p>No single team can build this alone — and we wouldn't want to. We're looking for collaborators, critics, aligned funders, and fellow travelers who feel that our tools should belong to us. We don't have all the answers. We are humble, motivated, and working on it.</p>
+  <div class="cta-row">
+    <a class="button primary" href="https://discord.gg/cRFFHYye7t">Join our Discord</a>
+    <a class="button ghost" href="https://github.com/seption-org">Follow on GitHub</a>
+  </div>
+  <blockquote style="text-align:left; margin-top:2.5rem;">
+    <p>Nature loves courage. You make the commitment and nature will respond to that commitment by removing impossible obstacles&hellip; This is how magic is done. By hurling yourself into the abyss and discovering it's a feather bed.</p>
+    <cite>— Terence McKenna</cite>
+  </blockquote>
+</div>
+
+</main>
+
+<footer>
+  <div class="seven" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <p>Seption — built in the open by Gabriel &amp; Jeremy.</p>
+  <p><a href="https://discord.gg/cRFFHYye7t">Discord</a> · <a href="https://github.com/seption-org">GitHub</a> · <a href="work.html">The Work</a> · <a href="compass.html">Our Compass</a></p>
+</footer>
+
+<script src="assets/constellation.js"></script>
 </body>
-
 </html>
