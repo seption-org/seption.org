@@ -1,18 +1,10 @@
-# Quartz v4
+# seption.org
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+The website for [Seption](https://seption.org) — a relational computing ecosystem.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+Plain hand-written HTML/CSS, no framework, no build step. The site lives in `site/`
+and deploys to GitHub Pages via `.github/workflows/deploy.yml` on every push to `main`.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+To preview locally, open `site/index.html` in a browser (or `python -m http.server -d site`).
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Come say hi on [Discord](https://discord.gg/n8curdF78v).

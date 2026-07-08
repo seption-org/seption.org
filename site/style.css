@@ -1,0 +1,246 @@
+/* Seption — seption.org
+   Hand-written, no build step. Light & dark via prefers-color-scheme. */
+
+:root {
+  --bg: #faf8f4;
+  --bg-raised: #ffffff;
+  --ink: #2b2833;
+  --ink-soft: #5a5566;
+  --line: #e4dfd6;
+  --accent: #6d5fd4;
+  --accent-2: #4f7fe0;
+  --accent-ink: #ffffff;
+  --grad: linear-gradient(135deg, #4f7fe0, #9d7bea);
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171526;
+    --bg-raised: #201d33;
+    --ink: #e9e6f2;
+    --ink-soft: #aaa4bd;
+    --line: #322e49;
+    --accent: #9d8cf0;
+    --accent-2: #7ba3f0;
+    --accent-ink: #14121f;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+a { color: var(--accent); }
+a:hover { color: var(--accent-2); }
+
+/* ---------- header ---------- */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1.1rem 1.25rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-family: "Iowan Old Style", Palatino, Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.brand .mark { display: block; }
+
+.site-header nav {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  flex-wrap: wrap;
+}
+
+.site-header nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.site-header nav a:hover { color: var(--accent); }
+
+.site-header .nav-cta {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ---------- layout ---------- */
+
+main { display: block; }
+
+section {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 3.25rem 1.25rem 0;
+}
+
+section:last-of-type { padding-bottom: 3rem; }
+
+h2 {
+  font-size: 1.85rem;
+  margin: 0 0 1rem;
+}
+
+h3 { font-size: 1.15rem; margin: 1.8rem 0 0.5rem; }
+
+/* ---------- hero ---------- */
+
+.hero {
+  max-width: 46rem;
+  text-align: center;
+  padding-top: 4.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 3.4rem);
+  margin: 0 0 1.2rem;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lede {
+  font-size: 1.2rem;
+  color: var(--ink-soft);
+  max-width: 38rem;
+  margin: 0 auto 1.8rem;
+}
+
+.lede em { color: var(--ink); font-style: italic; }
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin: 0 0 1rem;
+}
+
+.hero-note { color: var(--ink-soft); font-size: 0.95rem; }
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.3rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-raised);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+
+.button:hover { border-color: var(--accent); color: var(--accent); }
+
+.button.primary {
+  background: var(--grad);
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.primary:hover { color: #fff; filter: brightness(1.08); }
+
+/* ---------- cards ---------- */
+
+.cards {
+  display: grid;
+  gap: 1rem;
+  margin: 1.6rem 0;
+}
+
+.cards.three { grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+.cards.two   { grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+.cards.grid  { grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+
+.card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  padding: 1.1rem 1.2rem;
+}
+
+.card h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
+.card p  { margin: 0; font-size: 0.94rem; color: var(--ink-soft); }
+
+/* widen card sections past the prose column */
+#problem, #compass, #people { max-width: 54rem; }
+#problem > p, #problem > blockquote,
+#compass > p, #people > p {
+  max-width: 44rem; margin-left: auto; margin-right: auto;
+}
+#problem h2, #compass h2, #people h2 {
+  max-width: 44rem; margin-left: auto; margin-right: auto;
+}
+
+/* ---------- quotes & accents ---------- */
+
+blockquote {
+  margin: 2rem auto;
+  padding: 0.2rem 0 0.2rem 1.3rem;
+  border-left: 3px solid var(--accent);
+}
+
+blockquote p {
+  margin: 0;
+  font-family: "Iowan Old Style", Palatino, Georgia, serif;
+  font-size: 1.22rem;
+  font-style: italic;
+  color: var(--ink);
+}
+
+.vision-grand {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  padding: 1.1rem 1.3rem;
+}
+
+.honest { color: var(--ink-soft); font-style: italic; }
+
+.connect { text-align: center; }
+.connect .hero-actions { margin-top: 1.4rem; }
+
+/* ---------- footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 4rem;
+  padding: 2rem 1.25rem 3rem;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.site-footer p { max-width: 44rem; margin: 0.5rem auto; }
+.site-footer .ack { font-style: italic; }
